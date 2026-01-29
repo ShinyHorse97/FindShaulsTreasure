@@ -4,9 +4,6 @@
              xmlns:quests="clr-namespace:FindShaulsTreasure.Quests"
              x:Class="FindShaulsTreasure.Quests.Group_00.Quest_00">
     <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        <Label x:Name="lTeam" />
     </VerticalStackLayout>
 </quests:BaseQuestView>

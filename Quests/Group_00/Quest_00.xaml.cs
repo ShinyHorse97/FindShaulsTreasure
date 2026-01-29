@@ -7,5 +7,7 @@ public partial class Quest_00 : BaseQuestView
 		Data = new Models.QuestInfo("Example Quest", "Example Hint", "Example Anwser");
 
 		InitializeComponent();
+
+		lTeam.Text = "Current Team: " + TeamNumber.ToString();
 	}
 }
