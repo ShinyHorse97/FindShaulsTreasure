@@ -65,6 +65,12 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="Quests\Group_04\Quest_4.xaml.cs">
+	    <DependentUpon>Quest_4.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
 	  <MauiXaml Update="Pages\QuestHolder.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
@@ -74,7 +80,7 @@
 	  <MauiXaml Update="Quests\Group_00\Quest_00.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Quests\Group_03\Quest_03.xaml">
+	  <MauiXaml Update="Quests\Group_04\Quest_4.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
