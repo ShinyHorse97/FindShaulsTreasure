@@ -1,11 +1,11 @@
-namespace FindShaulsTreasure.Quests.Group_03;
+namespace FindShaulsTreasure.Quests.Group_04;
 
-public partial class Quest_03 : BaseQuestView
+public partial class Quest_04 : BaseQuestView
 {
     Dictionary<string, string> ClueWords { get; set; }
-    public Quest_03(int teamId) : base(teamId)
+    public Quest_04(int teamId) : base(teamId)
     {
-        Data = new Models.QuestInfo("Flashing Letters", "", "");
+        Data = new Models.QuestInfo("Flashing Letters", "", "Algorithm");
         InitializeComponent();
         ClueWords = new Dictionary<string, string>();
         ClueWords.Add("Word1", "I");
